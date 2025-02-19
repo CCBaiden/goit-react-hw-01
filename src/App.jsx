@@ -1,5 +1,7 @@
 import Profile from './components/profile/Profile';
+import FriendList from './components/friendList/FriendList';
 import userData from './userData.json';
+import friends from './friends.json';
 
 function App() {
   return (
@@ -12,6 +14,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+
+      {/* FriendList bileşeni */}
+      <FriendList friends={friends} />
     </>
   );
 }
