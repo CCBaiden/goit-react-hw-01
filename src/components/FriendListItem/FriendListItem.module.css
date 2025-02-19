@@ -1,22 +1,22 @@
-.friend-list-item {
+.friendListItem {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.friend-list-item img {
+.friendListItem img {
   margin-right: 10px;
 }
 
-.friend-list-item p {
+.friendListItem p {
   margin: 0;
   font-size: 14px;
 }
 
-.friend-list-item .online {
+.online {
   color: green;
 }
 
-.friend-list-item .offline {
+.offline {
   color: red;
 }
